@@ -1,0 +1,20 @@
+header{
+  border-style: ridge;
+}
+
+footer{
+  border-style:  groove;
+}
+
+nav{
+  border-style: solid;
+}
+
+article{
+  border-style: double;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}

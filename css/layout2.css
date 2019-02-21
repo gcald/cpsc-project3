@@ -1,0 +1,21 @@
+header{
+  order: 1;
+  background-color: blue;
+}
+
+.content{
+  order: 2;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  order: 3;
+}
+
+#nav-articles{
+  order: -1;
+  padding-right: 2%;
+  background-color: yellow;
+}

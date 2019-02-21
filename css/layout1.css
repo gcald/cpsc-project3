@@ -1,0 +1,13 @@
+header{
+  order: 1;
+  background-color: blue;
+}
+
+.content{
+  order: 2;
+  background-color: red;
+}
+
+footer{
+  order: 3;
+}

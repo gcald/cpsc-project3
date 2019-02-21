@@ -1,0 +1,58 @@
+header{
+  order: 1;
+  background-color: blue;
+}
+
+.content{
+  order: 2;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+footer{
+  order: 3;
+}
+
+#nav-articles{
+  order: -1;
+  padding-right: 2%;
+  background-color: yellow;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+#one{
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-one{
+  order: -1;
+  padding-right: 3%;
+}
+
+#two{
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-two{
+  order: -1;
+  padding-right: 3%;
+}
+
+.beginning{
+  padding: 1%;
+}
+
+.middle{
+  padding: 1%;
+}
+
+.end{
+  padding: 1%;
+}

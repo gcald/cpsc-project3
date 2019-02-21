@@ -1,0 +1,70 @@
+header{
+  order: 1;
+  background-color: blue;
+}
+
+.content{
+  order: 2;
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+footer{
+  order: 3;
+}
+
+#nav-articles{
+  order: -1;
+  padding-right: 2%;
+  background-color: yellow;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+#one{
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-one{
+  order: -1;
+  padding-right: 3%;
+  position: sticky;
+  top: 10%;
+  z-index: 1;
+  background-color: yellow;
+}
+
+#two{
+  display: flex;
+  flex-direction: column;
+}
+
+#nav-two{
+  order: -1;
+  padding-right: 3%;
+  top: 10%;
+  z-index: 1;
+  background-color: yellow
+  position: sticky;
+}
+
+.beginning{
+  padding: 1%;
+}
+
+.middle{
+  padding: 1%;
+}
+
+.end{
+  padding: 1%;
+}
